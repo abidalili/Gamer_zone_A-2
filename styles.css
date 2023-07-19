@@ -27,59 +27,55 @@ body {
   font-weight: 500;
   margin-left: 10px;
 }
-.nav-section {
-  text-align: center;
-}
+
 .nav-container {
-  height: 100px;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
   max-width: 1400px;
   margin: 0 auto;
-  display: flex;
-  align-items: center;
 }
-.nav-container i {
-  margin-right: 10px;
-  color: red;
-}
-.nav-icon {
+.logo-container {
   display: flex;
   width: 50%;
-  align-items: center;
 }
-.nav-logo {
-  /* width: 80px; */
-  object-fit: cover;
 
-  font-size: auto;
-  padding: 80px 5px;
-}
-.nav-logo img {
-  width: 60px;
+.logo-container img {
+  object-fit: contain;
+  width: 50px;
   margin-right: 10px;
 }
-.nav-text p {
-  font-size: 2.5rem;
-  font-weight: 700;
+.logo-container p {
+  font-size: 30px;
 }
-.G-style {
+
+.g-section {
   color: #ff42a5;
 }
-.nav-items {
-  display: flex;
-  justify-content: space-around;
+
+.nav-items-container {
   width: 50%;
-  list-style: none;
-  font-weight: 500px;
-  font-size: 18px;
-  color: rgba(60, 53, 79, 1);
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
-.nav-items > li > a {
+.nav-items-container a {
   text-decoration: none;
-  font-weight: 500;
-  padding: 0px 0;
+  font-size: 25px;
+  color: rgba(60, 53, 79, 1);
 }
+
+.nav-items-container .login-btn {
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  padding: 10px 20px;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+}
+
+/* nav design ends here */
 .btn {
   border-radius: 8px;
   box-shadow: 1px 1px 2px black;
